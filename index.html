@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script  src="js/index.js"></script>
+
+    <h1 id=title>Customer Satisfaction Survey</h1>
+    </header>
+    </section>
+
+      <p id=description>
+  This kind of survey can help companies and organizations quickly and accurately measure how pleased their customers are
+  with their product, service, event or with the company in general.
+      </p>
+
+  <form id= "survey-form">
+    <br>
+      <label for = "name" id="name-label">Full Names: </label>
+      <input id = "name" type="text" name="name" placeholder="Jack Smith"required></input>
+    <br>
+
+    <br>
+      <label for = "email" id="email-label">Email: </label>
+      <input id = "email" type="email" name="email" placeholder="user@host.com"required></input>
+    <br>
+
+    <br>
+      <label for="birthday">Birthday:</label>
+      <input type="date" id="birthday" name="birthday">
+    <br>
+
+    <br>
+      <label for = "number" id ="number-label">Age: </label>
+      <input id="number" type="number" placeholder="18" min="18" max="100"required>
+    <br>
+
+
+    <br>
+     <label for = "dropdown" id = "type">Gender: </label>
+
+     <select id = "dropdown">
+       <option value = "type A"> Male </option>
+       <option value = "type B"> Female </option>
+       <option value="type C"> Prefer Not To Say </option>
+     </select>
+     <br>
+
+     <br>
+        <label for = "issue-resolved" id = "Javascript">Issue Resolved</label>
+        <input id = "issue-resolved" type= "radio" name= "issue-resolved" value=1></input>
+        <label for = "issue-unresolved" id = "issue-unresolved">Issue Not Resolved</label>
+        <input id= "issue-unresolved" type = "radio" name = "issue-unresolved" value=2></input>
+     <br>
+
+          <p>How was our customer service? </p>
+      <label for="Developer" id="Developer">Good</label>
+      <input id="good" type="checkbox" name="good" value=1></input>
+
+      <label for="bad" id="bad">Bad</label>
+      <input id="bad" type="checkbox" name="bad" value=2></input>
+
+      <label for="prefer-not-to-say" id="prefer-not-to-say">Prefer Not To Say</label>
+      <input id="prefer-not-to-say" type="checkbox" name="prefer-not-to-say" value=1></input>
+
+    <br>
+      <label id="textarea">Additional Comments</label>
+    <br>
+      <textarea id="textarea" name="instructions" rows="10" cols="50"></textarea>
+
+      <input id= "submit" type="submit"></input>
+
+
+
+
+        </form>
+</body>
+</html>
